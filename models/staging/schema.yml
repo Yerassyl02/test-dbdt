@@ -15,7 +15,7 @@ models:
     columns:
       - name: tripid
         data_type: string
-        description: ""
+        description: "hashed id"
         tests:
           - unique:
               severity: warn
