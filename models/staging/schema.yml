@@ -123,7 +123,7 @@ models:
 # test 3
       - name: payment_type_description
         data_type: string
-        description: ""
+        description: "Names of payment type"
         tests:
           - accepted_values:
               values: "{{ var('payment_name_type_values') }}"
